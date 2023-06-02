@@ -40,5 +40,28 @@ function package(x, y) {
   }
 PDCNID()
 
-     // Question 
+     // Question 7
+     function findMinMaxAvgSum(arr) {
+        let minNum = arr[0];
+        let maxNum = arr[0];
+        let sumNum = 0;
+        for (let i = 0; i < arr.length; i++) {
+          if (arr[i] < minNum) {
+            minNum = arr[i];
+          }
+          if (arr[i] > maxNum) {
+            maxNum = arr[i];
+          }
+          sumNum += arr[i];
+        }
+        let avgNum = sumNum / arr.length;
+        return [minNum, maxNum, avgNum, sumNum];
+      }
+
+      let arr = [5, 8, 7, 3, 2, 9, 5];
+      let [minNum, maxNum, avgNum, sumNum] = findMinMaxAvgSum(arr);
+      console.log("Minimum number:", minNum);
+      console.log("Maximum number:", maxNum);
+      console.log("Average number:", avgNum);
+      console.log("Sum of numbers:", sumNum);
 
