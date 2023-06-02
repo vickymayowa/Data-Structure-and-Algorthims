@@ -1,0 +1,17 @@
+Section A 
+Arrays are a fundamental data structure in computer programming that allow you to store
+and organize multiple values of the same type in a single variable. 
+An array is a collection of elements, where each element is identified by an index or 
+a position within the array. 
+List and Explain 5 Arrays Methods
+A.push()
+B.length
+C.slice():
+D.splice()
+E.pop()
+
+1.push():Adds one or more elements to the end of an array and returns the new length of the array.
+2.length:Returns the number of elements in an array.
+3.slice():Returns a shallow copy of a portion of an array specified by start and end indices.
+4.splice():ItChanges the contents of an array by removing, replacing, or adding elements at a specified index.
+5.pop(): It Removes the last element from an array and returns that element.
